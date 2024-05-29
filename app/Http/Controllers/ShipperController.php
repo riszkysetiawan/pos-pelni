@@ -33,7 +33,7 @@ class ShipperController extends Controller
         $shipper->nama_shipper = $namaShipper;
         $shipper->tujuan = $tujuan;
         $shipper->alamat = $alamat;
-        $shipper->jumlah = $jumlah;
+        // $shipper->jumlah = $jumlah;
         $shipper->save();
 
         // Redirect atau tampilkan pesan sukses
